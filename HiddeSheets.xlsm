@@ -1,0 +1,8 @@
+Sub HiddeSheets()
+    Dim ws As Worksheet
+    For Each ws In Sheets
+        If Not ws.Name = ActiveSheet.Name And ws.Visible = xlSheetVisible Then
+            ws.Visible = xlSheetHidden
+        End If
+    Next
+End Sub
