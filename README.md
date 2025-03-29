@@ -1,38 +1,63 @@
-📂 Useful VBA Code Repository
-Welcome to the Useful VBA Code Repository! This repository contains a collection of helpful VBA macros designed to streamline and automate common tasks in Excel. Whether you're cleaning up data, managing sheet visibility, or calculating based on cell formatting, this collection has you covered. 🚀
+# 📂 Useful VBA Code Repository
 
-🧑‍💻 How to Use?
-Clone the repository and add the macros to your Excel environment via the VBA editor. You can simply copy and paste the code into your own workbook's VBA modules.
+Welcome to the Useful VBA Code Repository! 🚀 This repository contains a collection of helpful VBA macros designed to streamline and automate common tasks in Excel. Whether you're cleaning up data, managing sheet visibility, or calculating based on cell formatting, this collection has you covered.
 
-🛠️ Available Macros
-1. Clear Cell Contents
-This macro allows you to quickly clear the contents of a specific cell, without deleting its formatting. Perfect for resetting data!
+Feel free to explore the code snippets and adapt them to your own needs! 😄
 
-2. Hide Sheets
-This script hides all sheets in your workbook except the active sheet. Great for protecting other sheets or focusing only on the current one.
+## 🧑‍💻 How to Use
 
-3. Set Header When Printing
+Clone the repository:
+
+git clone https://github.com/your-repository.git
+
+Open Excel and access the VBA Editor (ALT + F11).
+
+Copy and paste the desired macro into a module in your workbook.
+
+Run the macro as needed!
+
+## 🛠️Usefull Codes
+
+Codes avaiables in the moment:
+
+- **Clear Cell Contents**
+
+Quickly clear the contents of a specific cell without deleting its formatting. Perfect for resetting data!
+
+- **Hide Sheets**
+
+Hides all sheets in your workbook except the active sheet. Great for protecting other sheets or focusing only on the current one.
+
+- **Set Header When Printing**
+
 Automatically sets the title of each sheet in the header when printing. The title is taken from cell A2 on each sheet, making it ideal for adding consistent headers to reports.
 
-4. Sum Cells by Color
-This function calculates the sum of all cells that have the same background color. You specify a reference cell with the desired color, and it sums all matching cells in a given range.
+- **Sum Cells by Color**
 
-5. Unhide Sheets
-This macro makes all hidden sheets visible again, allowing you to quickly restore access to sheets you might have previously hidden.
+Calculates the sum of all cells that have the same background color. Specify a reference cell with the desired color, and it sums all matching cells in a given range.
 
-6. Create Table of Contents
-This macro generates a table of contents for your workbook, with hyperlinks to each sheet. The table is dynamically populated and can be placed anywhere in the workbook.
+- **Unhide Sheets**
 
-🚀 How to Contribute
+Makes all hidden sheets visible again, allowing you to quickly restore access to sheets previously hidden.
 
-1- Fork the repository.
+- **Create Table of Contents**
 
-2- Create a new branch (git checkout -b feature-your-feature).
+Generates a Table of Contents for your workbook, with hyperlinks to each sheet. The table is dynamically populated and can be placed anywhere in the workbook.
 
-3- Make your changes.
+## 🚀 How to Contribute?
 
-4- Commit your changes (git commit -am 'Add new feature').
+1️⃣ Fork the repository.
 
-5- Push to the branch (git push origin feature-your-feature).
+2️⃣Create a new branch: git checkout -b feature-your-feature
 
-6- Open a Pull Request!
+3️⃣Make your changes.
+
+4️⃣Commit your changes: git commit -am "Add new feature"
+
+5️⃣Push to the branch: git push origin feature-your-feature
+
+6️⃣Open a Pull Request!
+
+
+
+Happy coding! 🎉
